@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.domain.Categoria;
 import com.example.demo.services.CategoriaService;
 
+/*
+ * Camada de recurso - REST
+ *  
+ * */
 
 @RestController
 @RequestMapping(value="/categorias")
